@@ -1,0 +1,45 @@
+.booking__form {
+    width: 47.5%;
+}
+
+.booking__form input {
+    padding: 8px 16px;
+    border: 1px solid #7c8a972a;
+    color: var(--ash);
+    width: 100%;
+
+}
+
+.booking__form select,
+.textarea {
+    width: 100%;
+    padding: 8px 16px;
+    color: var(--ash);
+    border: 1px solid #7c8a972a;
+    border-radius: 4px;
+    background: var(--whiteColor);
+}
+
+.time__picker::before {
+    content: "Journey time";
+    color: var(--ash);
+    margin-right: 0.5rem;
+}
+
+.textarea:focus,
+.booking__form input:focus,
+.booking__form select:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .booking__form {
+        width: 100%;
+    }
+
+    .booking__form input,
+    .textarea,
+    .booking__form select {
+        font-size: .8rem;
+    }
+}

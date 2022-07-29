@@ -1,0 +1,101 @@
+footer {
+    background-color: var(--col1);
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.footer__logo svg {
+    color: var(--whiteColor);
+    font-weight: var(--fw5);
+}
+
+.footer__logo span {
+    color: var(--whiteColor);
+    font-weight: var(--fw5);
+}
+
+.footer__logo-content,
+.footer__link-title,
+.quick__link a,
+.office__info {
+    color: rgba(255, 255, 255, 0.715);
+}
+
+.office__info,
+.quick__link a {
+    font-weight: 300;
+}
+
+.footer__logo-content {
+    margin-top: 16px;
+    line-height: 24px;
+}
+
+.quick__link {
+    border: none !important;
+    background: transparent !important;
+}
+
+.quick__link a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+.quick__link a:hover {
+    color: var(--yell);
+}
+
+.footer__section__description {
+    color: rgba(255, 255, 255, 0.507);
+}
+
+.newsletter {
+    padding: 8px 12px;
+    border: 1px solid #7c8a972f;
+    border-radius: 48px;
+    background-color: #020a4de9;
+}
+
+.newsletter input {
+    background: transparent;
+    color: var(--whiteColor);
+    border: none;
+    outline: none;
+}
+
+.newsletter span svg {
+    color: var(--whiteColor);
+}
+
+.footer__bottom {
+    border-top: 1px solid #7c8a972f;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__logo-content {
+        font-size: 1rem;
+    }
+
+    .quick__link,
+    .office__info {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .footer__link-title {
+        font-size: 1rem;
+        margin-top: 12px;
+    }
+
+    .footer__bottom p {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+    .newsletter span svg {
+        display: none;
+    }
+}

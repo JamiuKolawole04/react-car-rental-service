@@ -1,0 +1,19 @@
+.service__item span svg {
+    color: var(--yell);
+}
+
+.service__item h6 {
+    font-size: 1.2rem;
+    font-weight: var(--fw6);
+    transition: .3s;
+}
+
+.service__item h6:hover {
+    color: var(--yell);
+}
+
+@media only screen and (max-width: 768px) {
+    .service__item h6 {
+        font-size: 1.1rem;
+    }
+}

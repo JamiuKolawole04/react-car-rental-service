@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+/* import source sans pro 200, 300, 400, 600, 700, 900 */
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../assets/fonts/SourceSansPro-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
+}
+
+:root {
+  --col1: #000d6b;
+  --col2: #000c6bd0;
+  --yell: #f9a862;
+  --whiteColor: #fff;
+  --ash: #7c8a87;
+  --fw6: 600;
+  --fw5: 500;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-52 {
+  margin-left: 52px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--col1);
+  font-weight: var(--fw6);
+  margin-bottom: 0;
+}
+
+h3,
+h4 {
+  font-size: 1.8rem;
+}
+
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.section__title {
+  color: var(--col1);
+  font-weight: var(--fw6);
+  font-size: 2rem;
+}
+
+.section__subtitle {
+  color: var(--yell);
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+section {
+  padding: 48px 0;
+}
+
+.btn {
+  padding: 6px 14px;
+  background-color: var(--col1);
+  color: var(--whiteColor);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.btn:hover {
+  color: var(--whiteColor);
+  background-color: var(--col2);
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 28px 0;
+  }
+
+  .section__title {
+    font-size: 1.6rem;
+  }
+
+  .section__subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+
+/*HEADER STYLES  
+================================ ====================================*/
+@import url("../styles/header.css");
+
+
+/* FOOTER STYLES
+================================  ======================================*/
+@import url("../styles/footer.css");
+
+
+/* HERO SLIDER STYLES
+====================================  ====================================*/
+@import url("../styles/hero-slider.css");
+
+
+/* FIND CAR FORM STYLES
+==================================== ======================================*/
+@import url("../styles/find-car-form.css");
+
+/* ABBOUT SECTION STYLES 
+===================================== =======================================*/
+@import url("../styles/about-section.css");
+
+/* SERVICES LISTS
+==================================== =========================================*/
+@import url("../styles/services-list.css");
+
+/*CAR ITEM 
+===================================== =========================================*/
+@import url("../styles/car-item.css");
+
+/* BECOME DRIVEVR STYLES
+====================================== =========================================*/
+@import url("../styles/become-driver.css");
+
+/* BLOG LIST
+===================================== ============================================*/
+@import url("../styles/blog-list.css");
+
+/* TEESTIMONIAL STYLES
+===================================== =============================================*/
+@import url("../styles/testimonial.css");
+
+/* COMMON SECTION
+====================================== =============================================*/
+@import url("../styles/common-section.css");
+
+/* OUR MEMBERS
+====================================== ==============================================*/
+@import url("../styles/our-members.css");
+
+/* ABOUT STYLES
+====================================== ===============================================*/
+@import url("../styles/about.css");
+
+/* BOOKING FORM
+====================================== ================================================*/
+@import url("../styles/booking-form.css");
+
+/* PAYMENT METHOD
+======================================== ===============================================*/
+@import url("../styles/payment-method.css");
+
+/* BLOG DETAILS
+========================================= ===============================================*/
+@import url("../styles/blog-details.css");
+
+/* CONTACT US
+=========================================== ==============================================*/
+@import url("../styles/contact.css");
