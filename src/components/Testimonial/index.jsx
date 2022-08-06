@@ -42,14 +42,14 @@ export const Testimonial = () => {
         <Slider {...settings}>
             <div className="testimonial py-4 px-3">
                 <p className="section__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque ex, alias sequi tempora dolorem error fugiat totam rerum architecto officiis dignissimos fuga ipsum nulla aperiam nostrum, numquam consequuntur! Nam.
+                    Car rent service is a great company to work with as they are always get the job done right and in a timely manner.They provide reliable vehicles to customers . car rent service is really good.
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
-                        <h6 className="mb-0 mt-3">John Doe</h6>
+                        <h6 className="mb-0 mt-3">Smith Jefferson</h6>
                         <p className="section__decription">Customer</p>
                     </div>
                 </div>
@@ -57,14 +57,14 @@ export const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className="section__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque ex, alias sequi tempora dolorem error fugiat totam rerum architecto officiis dignissimos fuga ipsum nulla aperiam nostrum, numquam consequuntur! Nam.
+                    These guys are incredible. Car rent service have been great at both providing cars and suggesting excellent airports  in a way that is easy to understand.
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
-                        <h6 className="mb-0 mt-3">John Doe</h6>
+                        <h6 className="mb-0 mt-3">Mary Erdoes</h6>
                         <p className="section__decription">Customer</p>
                     </div>
                 </div>
@@ -72,14 +72,14 @@ export const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className="section__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque ex, alias sequi tempora dolorem error fugiat totam rerum architecto officiis dignissimos fuga ipsum nulla aperiam nostrum, numquam consequuntur! Nam.
+                    I love the energy and excitement car rent service provide me and family in our last summer holiday. They are a really good company delivering thei services in excellent ways.
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
-                        <h6 className="mb-0 mt-3">John Doe</h6>
+                        <h6 className="mb-0 mt-3">Tom McCathy </h6>
                         <p className="section__decription">Customer</p>
                     </div>
                 </div>
@@ -87,14 +87,14 @@ export const Testimonial = () => {
 
             <div className="testimonial py-4 px-3">
                 <p className="section__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cumque ex, alias sequi tempora dolorem error fugiat totam rerum architecto officiis dignissimos fuga ipsum nulla aperiam nostrum, numquam consequuntur! Nam.
+                    Quick response to changes/questions/ideas.Someone always answers right away.Expertise and systematic approach to fulfilling client needs.
                 </p>
 
                 <div className="mt-3 d-flex align-items-center gap-4">
                     <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
-                        <h6 className="mb-0 mt-3">John Doe</h6>
+                        <h6 className="mb-0 mt-3">Janet Washington</h6>
                         <p className="section__decription">Customer</p>
                     </div>
                 </div>

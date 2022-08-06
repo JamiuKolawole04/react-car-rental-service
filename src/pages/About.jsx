@@ -31,11 +31,11 @@ export const About = () => {
                                 <h2 className="section__title">We Are Commited To Provide Safe Ride Solutions </h2>
 
                                 <p className="section__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem non eius obcaecati voluptatibus, consectetur quod facere fuga assumenda unde architecto, distinctio iure reprehenderit animi veritatis, totam quos consequuntur voluptatem iusto?
+                                    carrental is the world’s leading car-sharing network. We provide on-demand access to cars by the hour or the day in cities and campuses around the globe.
                                 </p>
 
                                 <p className="section__description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem non eius obcaecati voluptatibus, consectetur quod facere fuga assumenda unde architecto, distinctio iure reprehenderit animi veritatis, totam quos consequuntur voluptatem iusto?
+                                    We're on a mission to enable simple and responsible urban living—a future filled with more car-sharing members than car owners in major cities across the globe.
                                 </p>
 
                                 <div className="d-flex align-items-center gap-3 mt-4">

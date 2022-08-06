@@ -37,7 +37,7 @@ export const BlogDetails = () => {
 
                                 <p className="section__description">{blog.description}</p>
                                 <h6 className="fw-normal ps-5 "> <blockquote className="fs-4">{blog.quote}</blockquote> </h6>
-                                <p className="section__description">{blog.description}</p>
+                                <p className="section__description">{blog.desc2}</p>
                             </div>
 
                             <div className="comment__list mt-5">
@@ -48,7 +48,7 @@ export const BlogDetails = () => {
                                     <div className="comment__content">
                                         <h6 className="fw-bold">David Visa</h6>
                                         <p className="section__description mb-0 mt-1">14, July, 2022</p>
-                                        <p className="section__description mt-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod hic praesentium nisi error obcaecati  </p>
+                                        <p className="section__description mt-1"> Hmm. Great blog..Thanks for the quality content  </p>
                                         <span className="replay d-flex align-items-center gap-1">
                                             <ReplyLine /> Replay
                                         </span>

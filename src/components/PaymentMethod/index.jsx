@@ -10,19 +10,19 @@ export const PaymentMethod = () => {
         <Fragment>
             <div className="payment">
                 <label htmlFor="" className="d-flex align-items-center gap-2">
-                    <input type="radio" /> Direct Bank Transfer
+                    <input type="radio" name="payment" /> Direct Bank Transfer
                 </label>
             </div>
 
             <div className="payment mt-3">
                 <label htmlFor="" className="d-flex align-items-center gap-2">
-                    <input type="radio" /> Cheque Payment
+                    <input type="radio" name="payment" /> Cheque Payment
                 </label>
             </div>
 
             <div className="payment mt-3 d-flex align-items-center gap-2">
                 <label htmlFor="" className="d-flex align-items-center gap-2">
-                    <input type="radio" /> Master Card
+                    <input type="radio" name="payment" /> Master Card
                 </label>
 
                 <img src={masterCard} alt="" />
@@ -30,7 +30,7 @@ export const PaymentMethod = () => {
 
             <div className="payment mt-3 d-flex align-items-center gap-2">
                 <label htmlFor="" className="d-flex align-items-center gap-2">
-                    <input type="radio" /> Paypal
+                    <input type="radio" name="payment" /> Paypal
                 </label>
 
                 <img src={payPal} alt="" />

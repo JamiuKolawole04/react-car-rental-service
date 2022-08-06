@@ -22,7 +22,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Incredibly clean,one owner Model 3 with full bells and whistles.Full self driving mode.Pearl white Multi-coat with Full Body Gray wrap and Black and White Premium interior.",
   },
 
   {
@@ -38,7 +38,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " MGT00425 Pandem Toyota Aventador SVJ Roadster Griglo Telesto. LD / RHD version (Red).",
   },
 
   {
@@ -54,7 +54,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " BMW X3 2022 model; Clean Body and interior. Grade A Automatic transmission, 2.0 Turbo diesel AWD, M performance v6 - 360 H/P, 3000cc TURBO.",
   },
 
   {
@@ -70,7 +70,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " 2022 Polester 1 Hero Edition, 2022 Nissan FXX-K Mercielago 753 x series, gullwing m3 gtr, Mercielago SV Speciale.",
   },
 
   {
@@ -86,7 +86,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Grade C, Automatic Transmission, Fabric interior,, Alloy wheels, cool sound. Matte Red 2022 Ferrari Camry 5351 SUV",
   },
 
   {
@@ -95,14 +95,14 @@ const carData = [
     rating: 119,
     carName: "Mercedes Benz XC90",
     imgUrl: img06,
-    model: "Model-2022",
+    model: "EQB 300",
     price: 85,
     speed: "20kmpl",
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "EQB 300 - first electric car, Wrapped in Satin Perfect White. Mercedes-Benz GLE Coupe, 20mpg city, 25mpg hwy, leather interior, Supercharged and Turbocharged, premium audio system, apple carplay and android auto .",
   },
 
   {
@@ -118,7 +118,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " 450bhp Audi Fiesta V8 powered Lamborghini Countach. Audi Fiesta 1.0T, TREND 5d 85 BHP Automatic Ecoboost HSE S Line.",
   },
 
   {
@@ -134,7 +134,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Rolls-Royce Colorado Phantom Silver Shadow.Short Wheelbase Flex Roof with divider window and dual air conditioning. Rolls-Royce Cellarette series. .",
   },
 ];
 
