@@ -16,8 +16,9 @@ export const FindCarForm = () => {
                     <input type="date" placeholder="Journey date" required />
                 </FormGroup>
 
-                <FormGroup className="form__group">
-                    <input type="time" className="journey__time" placeholder="Journey time" required />
+                <FormGroup className="form__group journey__time-text">
+                    <p className="time">Journey time</p>
+                    <input type="time" className="journey__time-input" placeholder="Journey time" required />
                 </FormGroup>
 
                 <FormGroup className="select__group">

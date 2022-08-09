@@ -50,11 +50,12 @@ export const BookingForm = () => {
             <FormGroup className="booking__form d-inline-block me-4 mb-4">
                 <input type="date" placeholder="Journey Date" />
             </FormGroup>
-            <FormGroup className="booking__form d-inline-block ms-1 mb-4">
+            <FormGroup className="booking__form d-inline-block ms-1 mb-4 journey__time-text">
+                <p className="time">Journey time</p>
                 <input
                     type="time"
                     placeholder="Journey Time"
-                    className="time__picker"
+                    className="time__picker journey__time-input"
                 />
             </FormGroup>
 
