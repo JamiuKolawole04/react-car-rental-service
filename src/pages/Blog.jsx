@@ -1,22 +1,33 @@
+import { Fragment } from "react";
 import { Container, Row } from "reactstrap";
+
 import {
     Helmet,
     CommonSection,
-    BlogList
+    BlogList,
+    Header,
+    Footer
 } from "../components";
 
 export const Blog = () => {
     return (
-        <Helmet title="blogs">
-            <CommonSection title="Blogs" />
-            <section>
-                <Container>
-                    <Row>
-                        <BlogList />
-                        <BlogList />
-                    </Row>
-                </Container>
-            </section>
-        </Helmet>
+        <Fragment>
+            <Header />
+
+            <Helmet title="blogs">
+                <CommonSection title="Blogs" />
+                <section>
+                    <Container>
+                        <Row>
+                            <BlogList />
+                            <BlogList />
+                        </Row>
+                    </Container>
+                </section>
+            </Helmet>
+
+            <Footer />
+        </Fragment>
+
     );
 }

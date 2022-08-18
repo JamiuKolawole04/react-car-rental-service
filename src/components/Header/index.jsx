@@ -63,8 +63,8 @@ export const Header = () => {
 
                         <Col lg="6" md="6" sm="6">
                             <div className="header__top__right d-flex  align-items-center justify-content-end gap-3">
-                                <Link to="#" className="d-flex align-items-center gap-1"> <LoginCircleLine size={18} /> Login </Link>
-                                <Link to="#" className="d-flex align-items-center gap-1"><UserLine size={18} /> Register</Link>
+                                <Link to="/login" className="d-flex align-items-center gap-1"> <LoginCircleLine size={18} /> Login </Link>
+                                <Link to="/register" className="d-flex align-items-center gap-1"><UserLine size={18} /> Register</Link>
                             </div>
                         </Col>
                     </Row>
