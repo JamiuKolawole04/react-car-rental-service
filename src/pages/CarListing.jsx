@@ -51,8 +51,8 @@ export const CarListing = () => {
 
                                     <select onChange={handleSort}>
                                         <option value="">Select</option>
-                                        <option value="low">Low to High</option>
-                                        <option value="high">High to Low</option>
+                                        <option value="low">Low price</option>
+                                        <option value="high">High price</option>
                                     </select>
                                 </div>
                             </Col>
