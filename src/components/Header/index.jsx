@@ -9,7 +9,7 @@ import CarLine from "remixicon-react/CarLineIcon";
 import EarthLine from "remixicon-react/EarthLineIcon";
 import TimeLine from "remixicon-react/TimeLineIcon";
 import MenuLine from "remixicon-react/MenuLineIcon";
-import SearchLine from "remixicon-react/SearchLineIcon";
+// import SearchLine from "remixicon-react/SearchLineIcon";
 
 
 
@@ -167,12 +167,12 @@ export const Header = () => {
                             </div>
                         </div>
 
-                        <div className="nav__right">
+                        {/* <div className="nav__right">
                             <div className="search__box d-flex  align-items-center ">
                                 <input type="text" placeholder="Search" />
                                 <span> <SearchLine size={16} /> </span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </Container>
             </div>
