@@ -1,4 +1,5 @@
-import { useRef } from "react";
+import { useRef, Fragment } from "react";
+import { useNavigate } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import PhoneLineIcon from "remixicon-react/PhoneLineIcon";
@@ -16,6 +17,7 @@ import SearchLine from "remixicon-react/SearchLineIcon";
 
 export const Header = () => {
     const menuRef = useRef(null);
+    const navigate = useNavigate()
 
     const toggleMenu = () => {
         menuRef.current.classList.toggle("menu__active")
@@ -43,7 +45,15 @@ export const Header = () => {
             path: "/contact",
             display: "Contact"
         }
-    ]
+    ];
+
+    const user = JSON.parse(localStorage.getItem("user"));
+
+    const handleLogout = () => {
+        localStorage.removeItem("user");
+        navigate("/");
+
+    }
 
 
     return (
@@ -63,8 +73,22 @@ export const Header = () => {
 
                         <Col lg="6" md="6" sm="6">
                             <div className="header__top__right d-flex  align-items-center justify-content-end gap-3">
-                                <Link to="/login" className="d-flex align-items-center gap-1"> <LoginCircleLine size={18} /> Login </Link>
-                                <Link to="/register" className="d-flex align-items-center gap-1"><UserLine size={18} /> Register</Link>
+                                {!user &&
+                                    <Fragment>
+                                        <Link to="/login" className="d-flex align-items-center gap-1"> <LoginCircleLine size={18} /> Login </Link>
+                                        <Link to="/register" className="d-flex align-items-center gap-1"><UserLine size={18} /> Register</Link>
+                                    </Fragment>
+                                }
+
+                                {user &&
+                                    <Fragment>
+                                        <p className="d-flex align-items-center gap-1"><UserLine size={18} />{user.email}</p>
+                                        <p className="d-flex align-items-center gap-1 pointer" onClick={handleLogout}><LoginCircleLine size={18} /> Logout</p>
+                                        {/* <Link to="/register" className="d-flex align-items-center gap-1"><UserLine size={18} />{user.email}</Link>
+                                        <Link to="/login" className="d-flex align-items-center gap-1"> <LoginCircleLine size={18} /> Logout </Link> */}
+                                    </Fragment>
+                                }
+
                             </div>
                         </Col>
                     </Row>
@@ -127,6 +151,18 @@ export const Header = () => {
                                     navLinks.map((item, index) => (
                                         <NavLink to={item.path} className={navClass => navClass.isActive ? "nav__active nav__item" : "nav__item"} key={index}>{item.display}</NavLink>
                                     ))
+                                }
+                                {!user &&
+                                    <Fragment>
+                                        <Link to="/login" className="nav__item">Login</Link>
+                                        <Link to="/register" className="nav__item">Regiser</Link>
+                                    </Fragment>
+                                }
+                                {user &&
+                                    <Fragment>
+                                        <p style={{ color: "#000d6b" }}>{user.email}</p>
+                                        <p style={{ color: "#000d6b" }} className="pointer" onClick={handleLogout}>Logout</p>
+                                    </Fragment>
                                 }
                             </div>
                         </div>

@@ -22,6 +22,26 @@ button.signup {
     font-weight: 500;
 }
 
+@media screen and (max-width: 590px) {
+    .auth__form {
+        min-height: 65vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    button.signup {
+        width: 100%;
+    }
+
+    .auth__form {
+        padding-left: 8px;
+    }
+
+    .alert-box {
+        width: 97% !important;
+    }
+}
+
 #name,
 #email,
 #password,
@@ -31,7 +51,6 @@ button.signup {
     outline: none;
     margin: 20px 0;
     font-weight: 600;
-    text-transform: capitalize;
     color: var(--col1);
     font-size: 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
@@ -93,4 +112,50 @@ button.signup {
 .auth-link,
 .auth-link:hover {
     color: var(--col1);
+}
+
+img.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    /* display: none; */
+    transform: translate(-50%, -50%);
+}
+
+.alert-box {
+    width: 300px;
+    min-height: 240px;
+    /* min-height: 130px; */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    z-index: 2;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    transition: 1s;
+}
+
+.alert-box.show {
+    opacity: 1;
+}
+
+.alert-box img {
+    display: block;
+    margin: 8px auto 20px;
+    height: 60px;
+}
+
+.alert-box p {
+    color: #e24c4b;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
 }
