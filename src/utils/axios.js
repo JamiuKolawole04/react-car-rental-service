@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "http://localhost:8020/api/v1/auth"
+    baseURL: "https://api-car-rental-service.herokuapp.com"
 });
 
 export default instance;
