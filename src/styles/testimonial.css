@@ -1,4 +1,29 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 359.98px) {
+    .testimonial p {
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+    .testimonial h6 {
+        font-size: .9rem;
+    }
+}
+
+
+@media screen and (max-width: 499.98px) {
+    .testimonial__desc {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .testimonial__desc>div:first-of-type {
+        margin-top: -32px;
+    }
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
     .testimonial p {
         font-size: .8rem;
         line-height: 1.5rem;

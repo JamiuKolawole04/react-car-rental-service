@@ -45,7 +45,7 @@ export const Testimonial = () => {
                     Car rent service is a great company to work with as they are always get the job done right and in a timely manner.They provide reliable vehicles to customers . car rent service is really good.
                 </p>
 
-                <div className="mt-3 d-flex align-items-center gap-4">
+                <div className="mt-3 d-flex align-items-center gap-4 testimonial__desc">
                     <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
@@ -60,7 +60,7 @@ export const Testimonial = () => {
                     These guys are incredible. Car rent service have been great at both providing cars and suggesting excellent airports  in a way that is easy to understand.
                 </p>
 
-                <div className="mt-3 d-flex align-items-center gap-4">
+                <div className="mt-3 d-flex align-items-center gap-4 testimonial__desc">
                     <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
@@ -75,7 +75,7 @@ export const Testimonial = () => {
                     I love the energy and excitement car rent service provide me and family in our last summer holiday. They are a really good company delivering thei services in excellent ways.
                 </p>
 
-                <div className="mt-3 d-flex align-items-center gap-4">
+                <div className="mt-3 d-flex align-items-center gap-4 testimonial__desc">
                     <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
@@ -90,7 +90,7 @@ export const Testimonial = () => {
                     Quick response to changes/questions/ideas.Someone always answers right away.Expertise and systematic approach to fulfilling client needs.
                 </p>
 
-                <div className="mt-3 d-flex align-items-center gap-4">
+                <div className="mt-3 d-flex align-items-center gap-4 testimonial__desc">
                     <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
                     <div>
