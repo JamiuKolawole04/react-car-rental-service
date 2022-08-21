@@ -84,7 +84,7 @@ export const Footer = () => {
                     <Col lg="12">
                         <div className="footer__bottom">
                             <p className="footer__section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                                <CopyrightLine /> Copyright {new Date().getFullYear()}. All rights reserved.
+                                <CopyrightLine /> Copyright {new Date().getFullYear()}, Developed by Jay All rights reserved.
                             </p>
                         </div>
                     </Col>
