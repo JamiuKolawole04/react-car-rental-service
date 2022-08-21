@@ -28,7 +28,7 @@ export const Login = () => {
 
         try {
             const { data } = await axios({
-                url: "/login",
+                url: "/api/v1/auth/login",
                 method: "post",
                 data: { email, password }
             });

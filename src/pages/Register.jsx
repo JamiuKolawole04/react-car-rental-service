@@ -34,7 +34,7 @@ export const Register = () => {
 
         try {
             const { data } = await axios({
-                url: "/signup",
+                url: "/api/v1/auth/signup",
                 method: "post",
                 data: { name, email, password, number, termsAndConditions }
             });
